@@ -2,13 +2,16 @@
 <html>
 <head>
   <title>SproutcoreExample</title>
-  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "head" %>
+  <%= javascript_include_tag "loader" %>
   <%= stylesheet_link_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
+
+<div id="container"></div>
 
 </body>
 </html>
