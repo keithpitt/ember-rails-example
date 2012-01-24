@@ -1,10 +1,8 @@
 GIT
   remote: git://github.com/emberjs/ember-rails.git
-  revision: 2a247bf9d0ef968a032087dc46994ab62937f6e6
+  revision: bcd35f3557471bae29b04c5f7b653df22443f761
   specs:
     ember-rails (0.2.2)
-      actionpack (>= 3.0)
-      activesupport (>= 3.0)
       execjs (>= 1.2)
       railties (>= 3.0)
 
